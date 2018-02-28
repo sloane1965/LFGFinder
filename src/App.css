@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 10s linear;
   height: 100px;
@@ -25,4 +30,19 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.games-list {
+  list-style-type: none;
+  border: 1px solid black;
+  padding: 25px;
+  margin-bottom: 40px;
+}
+
+.searchBarStyling h1 {
+  
+}
+
+.searchBarStyling h1, input {
+  margin-bottom: 30px;
 }
